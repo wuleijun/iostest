@@ -35,10 +35,10 @@
     _viewControllers = [[NSMutableArray alloc]init];
     
     //@"Tabbar_Icon_Tool"
-    _arrayOfImg=[NSArray arrayWithObjects:@"Tabbar_Icon_Call",@"Tabbar_Icon_New",@"Tabbar_Icon_Contact",@"Tabbar_Icon_Center",nil];
+    _arrayOfImg=[NSMutableArray arrayWithObjects:@"Tabbar_Icon_Call",@"Tabbar_Icon_New",@"Tabbar_Icon_Contact",@"Tabbar_Icon_Center",nil];
     
     //@"Tabbar_Icon_Tool_d"
-    _arrayOfSelectedImg=[NSArray arrayWithObjects:@"Tabbar_Icon_Call_d",@"Tabbar_Icon_New_d",@"Tabbar_Icon_Contact_d",@"Tabbar_Icon_Center_d",nil];
+    _arrayOfSelectedImg=[NSMutableArray arrayWithObjects:@"Tabbar_Icon_Call_d",@"Tabbar_Icon_New_d",@"Tabbar_Icon_Contact_d",@"Tabbar_Icon_Center_d",nil];
     
     UINavigationController *mfirstViewController=[self getCustomNavigationController:[FirstViewController class]];
     UINavigationController *msecondViewController=[self getCustomNavigationController:[SecondViewController class]];
